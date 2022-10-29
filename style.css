@@ -1,6 +1,8 @@
 body{
   padding: 0px;
   margin: 0px;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 
@@ -19,19 +21,17 @@ div{
 
 header{
   height: 200px;
-  background-image: src=("unnamed.jpg");
+  background-image: url("unnamed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: no-repeat;
   margin: 0px;
-  min-height:50vh;
+  min-height:85vh;
   
 }
 
-#oof{
-  background-image: src=("unnamed.jpg");
-}
+
 #ooof{
   color: #0000ff;
   text-align: center;
@@ -63,4 +63,14 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+#airfoil{
+  color: #2e93ff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
