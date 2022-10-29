@@ -19,7 +19,7 @@ div{
 
 header{
   height: 200px;
-  background-image: url("unnamed.jpg");
+  background-image: src=("unnamed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@ header{
 }
 
 #oof{
-  background-image: url("unnamed.jpg");
+  background-image: src=("unnamed.jpg");
 }
 #ooof{
   color: #0000ff;
